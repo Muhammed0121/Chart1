@@ -1658,4 +1658,4 @@ if __name__ == '__main__':
     print("✅ Auto-Restart on Idle: Enabled")
     print("✅ TradingView-like Countdown: Enabled")
     eel.init('web')
-    eel.start('login.html', size=(1200, 700), port=0)
+    eel.start('login.html', size=(1200, 700), port=8080, host='0.0.0.0', mode=None)
